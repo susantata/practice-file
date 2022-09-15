@@ -2,7 +2,9 @@
 display: flex;
 padding: 10px;
 }
-
+.body{
+    background-color: azure;
+}
 .logo {
     color: grey;
     width: 50%;
@@ -42,30 +44,56 @@ padding: 10px;
 }
 
 
+
 .main{
     display: flex;
-    background-color: rgb(224, 239, 237);
+    height: 50vh;
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+
+}
+
+.content{
     padding: 20px;
-    background-color: rgb(240, 243, 243);
+    width: 50%;
+}
+
+#btn1{
+    width: auto;
+    background-color: rgb(51, 177, 185);
+    border: none;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.image{
+    width: 40%;
+    height: 50vh;
+    padding: 20px;
+}
+
+.image img{
+width: 120%;
+height: 60vh;
 }
 
 .main h1{
     
-    width: 50px;
-    margin-left: 2rem;
-    font-size: 5px;
-    display: center;
+    font-size: 12px;
     
 }
 
 .main h2{
     color: rgb(51, 177, 185);
-    font-size: 25px;
+    font-size: 30px;
+   
 }
 
 .main p{
-    text-align: center;
-    font-size: smaller;
+    text-align: left;
+    font-size: 15px;
+    font-style: italic;
     
 }
 
@@ -76,37 +104,99 @@ padding: 10px;
     
 }
 
-.image{
-    padding-left: 35rem;
-   margin: left;
-    float: left;
-    
-
-}
-
 .skills{
  text-align: center;
  display: flex;
-  columns: flex;
-  margin: 15px 15px;
-  border: solid;
+  margin: auto;
+  border: solid-white;
   padding: 30px 0;
-  width: 85%;
-  height: 10em;
-  justify-content: right;
+  width: 70%;
+  height: auto;
+  justify-content: center;
 }
+
 .contact{
-
-
-
-
-
+    background-color: lightseagreen;
+    color: aliceblue;
+    padding: 0 10px;
 }
 
 .contact h2{
     background-color: lightseagreen;
     color: aliceblue;
-    border-width: 5px; 
+
+     
 }
 
+#btn{
+    background-color: aliceblue;
+    color: lightseagreen;
+    padding: 6px;
+    font-size: 8px;
+    border: none;
+    margin-bottom: 10px;
+    width: 40px;
+    
+
+}
+
+.mouth{
+  background-color: rgb(85, 194, 190);
+  color: aliceblue;
+  padding: 0 10px;
+}
+
+.mouth h2{
+    color: aliceblue;
+    
+}
+
+.hands{
+    background-color: rgb(120, 213, 210);  
+    color: aliceblue;
+    padding: 0 10px;
+}  
+
+.hands h2{
+color: aliceblue;
+}
+
+.footer{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    height: 100px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
