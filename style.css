@@ -1,9 +1,11 @@
 .header{
 display: flex;
 padding: 10px;
+background-color: #EDEDED;    
+
 }
 .body{
-    background-color: azure;
+    background-color: #EDEDED;    
 }
 .logo {
     color: grey;
@@ -72,11 +74,13 @@ padding: 10px;
     width: 40%;
     height: 50vh;
     padding: 20px;
+
 }
 
 .image img{
 width: 120%;
 height: 60vh;
+
 }
 
 .main h1{
@@ -114,6 +118,8 @@ height: 60vh;
   width: 900px;
   height: 300px;
   display: flex;
+  background-color: #EDEDED;
+
 
 }
 
